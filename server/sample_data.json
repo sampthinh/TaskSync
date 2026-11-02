@@ -1,0 +1,7 @@
+[
+  { "id": "11111111-1111-4111-8111-111111111111", "title": "Hoàn thành báo cáo lý thuyết", "description": "Viết D1: Offline-First, Room, Retrofit", "isCompleted": false },
+  { "id": "22222222-2222-4222-8222-222222222222", "title": "Chạy thử đồng bộ khi mất mạng", "description": "Tắt mạng máy ảo, thêm công việc rồi bật lại", "isCompleted": false },
+  { "id": "33333333-3333-4333-8333-333333333333", "title": "Quay video demo", "description": "", "isCompleted": false },
+  { "id": "44444444-4444-4444-8444-444444444444", "title": "Cài đặt Android Studio", "description": "Đã cài xong", "isCompleted": true },
+  { "id": "55555555-5555-4555-8555-555555555555", "title": "Viết README", "description": "Tài liệu server và cách chạy", "isCompleted": true }
+]
