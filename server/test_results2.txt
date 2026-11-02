@@ -1,0 +1,21 @@
+Kiem thu server http://localhost:3000  luc 17:57:48 2/11/2026
+----------------------------------------------------------------------
+PASS  TC01  Tao cong viec moi -> 201, version 1  -> status 201
+PASS  TC06  Gui lai yeu cau tao cung id -> 200, khong tao trung  -> status 200
+PASS  TC06  Danh sach chi co 1 ban ghi cho id do  -> so ban ghi: 1
+PASS  TC07  Sua dung baseVersion -> 200, version 2  -> status 200
+PASS  TC07  Sua voi baseVersion cu -> 409 kem ban cua server  -> status 409
+PASS  TC07  Ghi de bang force=true -> 200, version 3  -> status 200
+PASS  TC06  Gui lai dung thay doi da ap dung -> 200, khong tang version  -> version 3
+PASS  API  Sua cong viec khong ton tai -> 404  -> status 404
+PASS  API  Tao thieu title -> 400  -> status 400
+PASS  TC08  Xoa cong viec -> 200, isDeleted = true  -> status 200
+PASS  TC08  Xoa lai lan nua -> van 200 (an toan khi gui lai)  -> status 200
+PASS  TC08  Viec da xoa khong con trong GET /tasks
+PASS  TC08  Viec da xoa van xuat hien trong changes (de may khac biet)
+PASS  SYNC  Hoi lai sau moc serverTime -> khong co thay doi  -> so thay doi: 0
+PASS  SYNC  Chi nhan dung viec moi phat sinh sau moc  -> so thay doi: 1
+PASS  TC09  Tao 100 ban ghi: 100/100 thanh cong  -> 10724 ms, TB 107.2 ms/ban ghi
+PASS  TC06  Gui lai ca 100 ban ghi: 100/100 tra 200, khong tao trung  -> 95 ms, so ban ghi: 100, trung: 0
+----------------------------------------------------------------------
+Tong: 17 dat, 0 that bai, ty le dat 100.0%
