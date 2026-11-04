@@ -28,5 +28,6 @@ interface TaskRepository {
     suspend fun applyServerChanges(changes: List<Task>)
     suspend fun getLastSyncTime(): Long
     suspend fun setLastSyncTime(time: Long)
+    suspend fun resetStuckSyncing()
     fun resolveConflict(local: Task, server: Task): ConflictResult
 }
