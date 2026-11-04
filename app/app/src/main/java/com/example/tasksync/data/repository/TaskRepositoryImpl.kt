@@ -106,6 +106,8 @@ class TaskRepositoryImpl(
         prefs.edit().putLong(KEY_LAST_SYNC, time).apply()
     }
 
+    override suspend fun resetStuckSyncing() = dao.failAllSyncing()
+
     // ---------- Xung dot: Last-Write-Wins ----------
 
     override fun resolveConflict(local: Task, server: Task): ConflictResult =

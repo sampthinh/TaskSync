@@ -36,4 +36,7 @@ interface TaskDao {
     /** Chi doi sang FAILED neu viec van dang SYNCING (tranh de len viec nguoi dung vua sua). */
     @Query("UPDATE tasks SET syncStatus = 'FAILED' WHERE id IN (:ids) AND syncStatus = 'SYNCING'")
     suspend fun failSyncing(ids: List<String>)
+
+    @Query("UPDATE tasks SET syncStatus = 'FAILED' WHERE syncStatus = 'SYNCING'")
+    suspend fun failAllSyncing()
 }
