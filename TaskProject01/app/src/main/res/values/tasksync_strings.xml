@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_tasks">Công việc</string>
+    <string name="btn_sync">Đồng bộ</string>
+    <string name="btn_syncing">Đang đồng bộ…</string>
+    <string name="btn_add_task">Thêm công việc</string>
+    <string name="empty_list">Chưa có công việc nào.\nBấm “Thêm công việc” để bắt đầu.</string>
+
+    <string name="dialog_add_title">Thêm công việc</string>
+    <string name="dialog_edit_title">Sửa công việc</string>
+    <string name="hint_title">Tên công việc</string>
+    <string name="hint_description">Mô tả (không bắt buộc)</string>
+    <string name="error_title_required">Vui lòng nhập tên công việc</string>
+    <string name="action_save">Lưu</string>
+    <string name="action_cancel">Hủy</string>
+    <string name="action_delete">Xóa</string>
+    <string name="dialog_delete_title">Xóa công việc?</string>
+    <string name="dialog_delete_message">“%1$s” sẽ bị xóa.</string>
+
+    <!-- Trạng thái đồng bộ của từng công việc (syncStatus) -->
+    <string name="status_pending">Chưa đồng bộ</string>
+    <string name="status_syncing">Đang đồng bộ</string>
+    <string name="status_synced">Đã đồng bộ</string>
+    <string name="status_failed">Đồng bộ thất bại</string>
+
+    <!-- Trạng thái đồng bộ chung (WorkManager) -->
+    <string name="banner_running">Đang đồng bộ với máy chủ…</string>
+    <string name="banner_waiting">Đang chờ kết nối mạng hoặc chờ thử lại…</string>
+    <string name="banner_succeeded">Đồng bộ hoàn tất</string>
+    <string name="banner_failed">Đồng bộ thất bại, sẽ tự thử lại sau</string>
+</resources>
